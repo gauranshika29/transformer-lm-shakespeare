@@ -55,13 +55,13 @@ Temperature Sampling → Generated text
 
 ```bash
 # Install dependency
-pip install torch
+pip3 install torch
 
 # (Optional) Re-download and inspect the dataset
-python prepare_data.py
+python3 prepare_data.py
 
 # Train and generate text
-python attention_shakespeare.py
+python3 attention_shakespeare.py
 ```
 
 Training takes ~30–60 seconds on CPU. You'll see loss drop from ~4.1 to ~1.9 over 1000 steps, followed by a sample of generated text.
